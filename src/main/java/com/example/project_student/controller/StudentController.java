@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
-
+//adsas
 @RestController
 @RequestMapping("/students")
 public class StudentController {
@@ -36,6 +36,7 @@ public class StudentController {
     // O'quvchini ID bo'yicha o'chirish
     @DeleteMapping("/{id}")
     public void deleteStudent(@PathVariable Long id) {
+        //sasd
         studentService.deleteStudent(id);
     }
 }
